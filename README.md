@@ -3,17 +3,16 @@
 ## Background 
 America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. The difference in number also reflects in the number of startups. The number of new venture established in United State in 2018 is around 733K, while the new venture established in Europe is 123K. [citation 1: Number of business establishments in US](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation 2: Number of estimated startup in Europe](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
 
-
 Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
 
 ## Business Quesiton 
-Business Question: __Suppose you work in a venture capital firm, for each venture in its protfolio, which segment will it belongs?__
+Business Question: __Suppose you work in a venture capital firm, for each venture in its portfolio, which segment will it belongs?__
 
 ## Data Sources 
 To further investigate the startup environment in U.S, I use data from Crunchbase, which is a platform for finding business information (investment, funding, founding members, etc) about private and public companies. Due to limited access to data, I use unofficial CSV exports derived from the individual worksheets from [crunchbase_export.xlsx](https://github.com/notpeter/crunchbase-data), extracted from the December 4, 2015 Crunchbase Data Export by Github user notpeter. 
 
 More specifically, to answer my business question of “Suppose I’m in a venture capital firm, which segment of ventures will venture in my protfolio belongs?”
-Ie the Data Question: **How can I categorize startups in US, based on total funding received , number of rounds of funding, and days the startup is founded until December 4, 2015? ** 
+Ie the Data Question: **How to categorize startups in US, based on total funding received , number of rounds of funding, and days the startup is founded until December 4, 2015? ** 
 
  I focus one one dataset [crunchbase-companies-2015](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/companies.csv). This dataset have the following attributes: 
 - permalink: permanent link to the venture description 
@@ -45,8 +44,7 @@ All of my data analysis is shown in the excel file: [companies.xlsx](https://git
 9. Finally, I can use the Solver tool to conduct cluster analysis. The optimal solution happens when finding: 
 * Finding min value of “sum of min distance squares” 
 * Change cluster anchor number with three constraints: achor number <= 21567, anchor number >=1 and anchor number is a integer number 
-* And the solver solution is shown as below: 
-![table4](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/table4.png)
+* And the solver solution is shown as below
 10. Now we have three anchor points founded: 
 * Catbird: lower but approximated average total funding, approximately average funding rounds, and significantly larger than average days funded 
 * Array Health Solutions: lower but apprixmately average total funding, significanlty larger than average funding rounds, and larger than average days funded
