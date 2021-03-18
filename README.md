@@ -1,7 +1,8 @@
 # DA-proj3-ventures-cluster-analysis
 
 ## Background 
-America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. During the first three quarters of 2019, global venture capital investments reached over 161 billion U.S dollars with the United States accounting for more than half of all VC investments made worldwide. In terms of per capita spend, of all major VC investment markets it was Israel that came out on top with over 414 U.S dollars per capita in venture capital investments per capita [citation](https://www.statista.com/statistics/1071105/value-of-investments-by-venture-capital-worldwide-by-key-market/#statisticContainer). 
+America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. The difference in number also reflects in the number of startups. The number of new venture established in United State in 2018 is around 733K, while the new venture established in Europe is 123K. [citation1](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation2](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
+
 
 Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
 
