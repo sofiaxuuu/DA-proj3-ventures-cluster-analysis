@@ -1,7 +1,7 @@
 # DA-proj3-ventures-cluster-analysis
 
 ## Background 
-America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. The difference in number also reflects in the number of startups. The number of new venture established in United State in 2018 is around 733K, while the new venture established in Europe is 123K. [citation1](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation2](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
+America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. The difference in number also reflects in the number of startups. The number of new venture established in United State in 2018 is around 733K, while the new venture established in Europe is 123K. [citation 1: Number of business establishments in US](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation 2: Number of estimated startup in Europe](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
 
 
 Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
