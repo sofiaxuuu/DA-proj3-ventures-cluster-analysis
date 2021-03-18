@@ -1,7 +1,7 @@
 # DA-proj3-ventures-cluster-analysis
 
 ## Background 
-America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. During the first three quarters of 2019, global venture capital investments reached over 161 billion U.S dollars with the United States accounting for more than half of all VC investments made worldwide. In terms of per capita spend, of all major VC investment markets it was Israel that came out on top with over 414 U.S dollars per capita in venture capital investments per capita (https://www.statista.com/statistics/1071105/value-of-investments-by-venture-capital-worldwide-by-key-market/#statisticContainer). 
+America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. During the first three quarters of 2019, global venture capital investments reached over 161 billion U.S dollars with the United States accounting for more than half of all VC investments made worldwide. In terms of per capita spend, of all major VC investment markets it was Israel that came out on top with over 414 U.S dollars per capita in venture capital investments per capita [citation](https://www.statista.com/statistics/1071105/value-of-investments-by-venture-capital-worldwide-by-key-market/#statisticContainer). 
 
 Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
 
@@ -9,12 +9,12 @@ Interested in entrepreneurship, I would like to explore further into the startup
 Business Question: __Suppose I’m in a venture capital firm, which segment of ventures will venture in my protfolio belongs?__
 
 ## Data Sources 
-To further investigate the startup environment in U.S, I use data from Crunchbase, which is a platform for finding business information (investment, funding, founding members, etc) about private and public companies. Due to limited access to data, I use unofficial CSV exports derived from the individual worksheets from crunchbase_export.xlsx, extracted from the December 4, 2015 Crunchbase Data Export by Github user notpeter (https://github.com/notpeter/crunchbase-data). 
+To further investigate the startup environment in U.S, I use data from Crunchbase, which is a platform for finding business information (investment, funding, founding members, etc) about private and public companies. Due to limited access to data, I use unofficial CSV exports derived from the individual worksheets from [crunchbase_export.xlsx](https://github.com/notpeter/crunchbase-data), extracted from the December 4, 2015 Crunchbase Data Export by Github user notpeter. 
 
 More specifically, to answer my business question of “Suppose I’m in a venture capital firm, which segment of ventures will venture in my protfolio belongs?”
 Ie the Data Question: How can I categorize startups in US, based on total funding received , number of rounds of funding, and days the startup is founded until December 4, 2015? 
 
- I focus one one dataset [crunchbase-companies-2015] (https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/companies.csv). This dataset have the following attributes: 
+ I focus one one dataset [crunchbase-companies-2015](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/companies.csv). This dataset have the following attributes: 
 - permalink: permanent link to the venture description 
 - name: name of the venture 
 - homepage_url	: link to venture’s own website
