@@ -7,13 +7,13 @@ America has been the hot spot of entrepreneruship and innovation for decades, an
 Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
 
 ## Business Quesiton 
-Business Question: __Suppose I’m in a venture capital firm, which segment of ventures will venture in my protfolio belongs?__
+Business Question: __Suppose you work in a venture capital firm, for each venture in its protfolio, which segment will it belongs?__
 
 ## Data Sources 
 To further investigate the startup environment in U.S, I use data from Crunchbase, which is a platform for finding business information (investment, funding, founding members, etc) about private and public companies. Due to limited access to data, I use unofficial CSV exports derived from the individual worksheets from [crunchbase_export.xlsx](https://github.com/notpeter/crunchbase-data), extracted from the December 4, 2015 Crunchbase Data Export by Github user notpeter. 
 
 More specifically, to answer my business question of “Suppose I’m in a venture capital firm, which segment of ventures will venture in my protfolio belongs?”
-Ie the Data Question: How can I categorize startups in US, based on total funding received , number of rounds of funding, and days the startup is founded until December 4, 2015? 
+Ie the Data Question: **How can I categorize startups in US, based on total funding received , number of rounds of funding, and days the startup is founded until December 4, 2015? ** 
 
  I focus one one dataset [crunchbase-companies-2015](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/companies.csv). This dataset have the following attributes: 
 - permalink: permanent link to the venture description 
