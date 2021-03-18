@@ -45,7 +45,8 @@ All of my data analysis is shown in the excel file: [companies.xlsx](https://git
 9. Finally, I can use the Solver tool to conduct cluster analysis. The optimal solution happens when finding: 
 * Finding min value of “sum of min distance squares” 
 * Change cluster anchor number with three constraints: achor number <= 21567, anchor number >=1 and anchor number is a integer number 
-* And the solver solution is shown as below
+* And the solver solution is shown as below: 
+![table4](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/table4.png)
 10. Now we have three anchor points founded: 
 * Catbird: lower but approximated average total funding, approximately average funding rounds, and significantly larger than average days funded 
 * Array Health Solutions: lower but apprixmately average total funding, significanlty larger than average funding rounds, and larger than average days funded
