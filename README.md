@@ -1,12 +1,14 @@
 # DA-proj3-ventures-cluster-analysis
 
 ## Background 
-America has been the hot spot of entrepreneruship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much ore venture capital companies as well as angel investors willing to support new ideas. The difference in number also reflects in the number of startups. The number of new venture established in United State in 2018 is around 733K, while the new venture established in Europe is 123K. [citation 1: Number of business establishments in US](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation 2: Number of estimated startup in Europe](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
+America has been the hot spot of entrepreneurship and innovation for decades, and it provides a unique environment for startups to grow. Comparing to other regions like Europe or Asia, there are much more venture capital businesses as well as angel investors willing to support new ideas. In 2018 and 2019, VCs invested around ($140 billion) [https://techcrunch.com/2021/01/19/in-2020-vcs-invested-428m-into-us-based-startups-every-day/#:~:text=In%202018%20and%202019%2C%20VCs,and%20later%2Dstage%20in%20focus.] into domestic startups, making last year’s $156 billion results a record. In comparison, the total value of venture capital investments in Europe in 2020 is around (30$ billion) [https://www.statista.com/statistics/879080/value-of-investments-by-venture-capital-europe/]. 
 
-Interested in entrepreneurship, I would like to explore further into the startup companies landscape. 
+The difference in number also reflects in the number of startups. The number of new ventures established in the United State in 2018 is around 733K, while the number of new ventures established in Europe is 123K. [citation 1: Number of business establishments in US](https://www.statista.com/statistics/235494/new-entrepreneurial-businesses-in-the-us/) [citation 2: Number of estimated startup in Europe](https://medium.com/glassdollar/estimating-the-number-of-startups-in-europe-5d28286307f8). 
+
+As part of a student-run startup, I'm interested in exploring the startup companies landscape in the US, and which category our current company may fall into. 
 
 ## Business Quesiton 
-Business Question: __Suppose you work in a venture capital firm, for each venture in its portfolio, which segment will it belongs?__
+Business Question: __For each venture in a venture capital’s portfolio, which segment will it belongs?__
 
 ## Data Sources 
 To further investigate the startup environment in U.S, I use data from Crunchbase, which is a platform for finding business information (investment, funding, founding members, etc) about private and public companies. Due to limited access to data, I use unofficial CSV exports derived from the individual worksheets from [crunchbase_export.xlsx](https://github.com/notpeter/crunchbase-data), extracted from the December 4, 2015 Crunchbase Data Export by Github user notpeter. 
@@ -59,17 +61,15 @@ To better distinguish each cluster, the following figure provide a visualization
 This means that approximately half of the ventures in US belongs to category #3 of cluster, and these are the ones receive the least funding among three clusters. Approximately 30% of ventures in US belong to category #1, and approximately 19% of venture belongs to category #2.
 
 ## Interpretation 
-Given the above cluster analysis, a venture capital firm can categorize ventures in their portfolio to see how its portfolio may differ from the venture landscapes in US in 2015. A venture that is trying to improve its performance may tyr to observe pattern of categories in other top VC firms. 
+Given the above cluster analysis, a venture capital firm can categorize ventures in its portfolio to see how its portfolio may differ from the venture landscapes in the US in 2015. A venture that is trying to improve its performance may try to observe the pattern of categories in other top VC firms. 
 
-A startup venture owner can also try to categorize its own venture and evaluate its competitiveness. If the startup fall under the category #3 like GoldCleats Global, then it means that the venture is not super competitive in collecting funcing as it perform similar to 50% of other ventures. 
-
-I’m really surprised to see the fact that all three clusters all have lower than average total funding. This actually indicate how hard it is to get funding larger than average. 
+A startup venture owner can also try to categorize its venture and evaluate its competitiveness. Our current startup has been founded for 220 days, receives one round of funding of value 15000, and belongs to category #3. Hence, there is still a lot to improve to achieve higher competitive advantages. Since the startup falls under category #3 like GoldCleats Global, then it means that the venture is not super competitive in collecting funding as it performs similar to 50% of other ventures. 
 
 ## Future Work 
-I’m not completely satisfied with the cluster analysis i achieve right now, as I ideally I want to see a cluster with high amount of funding and more distinct difference among clusters. Therefore, I could potentially use 4-anchor or 5-anchors cluster analysis, taking days between the venture first receive funding until now, or days the venture last receive funding until now. 
+I’m not completely satisfied with the cluster analysis I achieve right now, as ideally, I want to see a cluster with a high amount of funding and a more distinct difference among clusters. Therefore, I could potentially use 4-anchor or 5-anchors cluster analysis, taking days between the venture first receive funding until now, or days the venture last receive funding until now. 
 
-In another way, I may potentially investigate the venture landscapes in other region like Europe and Asia. There could be some difference in the characteristics of each cluster. 
+In another way, I may potentially investigate the venture landscapes in other regions like Europe and Asia. There could be some differences in the characteristics of each cluster. 
 
-If the clustering is still similar, i would like to see how to potentially cluster startup based on non-numeric values like category and location. 
+If the clustering is still similar, I would like to see how to potentially cluster startup based on non-numeric values like category and location. 
 
 
