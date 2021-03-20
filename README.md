@@ -54,10 +54,10 @@ All of my data analysis is shown in the excel file: [companies.xlsx](https://git
 * GoldCleats Global: lower average total funding, lower than average funding rounds, and larger than average days founded
 
 To better distinguish each cluster, the following figure provide a visualization of z-value for each cluster anchor: 
-![figure2](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/figure2.png)
+![figure2](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/fig2.png)
 
 
-11. To provide a better visualization of the results, I use a pie chart and a bar chart to represent each category. ![figure1](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/figure1.png)
+11. To provide a better visualization of the results, I use a pie chart and a bar chart to represent each category. ![figure1](https://github.com/sophiaxuu/DA-proj3-ventures-cluster-analysis/blob/main/fig1.png)
 This means that approximately half of the ventures in US belongs to category #3 of cluster, and these are the ones receive the least funding among three clusters. Approximately 30% of ventures in US belong to category #1, and approximately 19% of venture belongs to category #2.
 
 ## Interpretation 
